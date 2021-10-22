@@ -1,3 +1,3 @@
-# Strapi application
+# Jirafa strapi application
 
-A quick description of your strapi application
+BE API for Jirafa project. Uses Postgres. Under development.
