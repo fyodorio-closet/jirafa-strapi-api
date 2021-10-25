@@ -1,15 +1,16 @@
 {
-  "name": "jirafa",
-  "private": true,
+  "name": "jirafa-api",
   "version": "0.1.0",
   "description": "Jirafa Strapi application",
+  "author": {
+    "name": "fyodorio"
+  },
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
     "knex": "0.21.18",
     "pg": "^8.7.1",
@@ -23,9 +24,6 @@
     "strapi-plugin-upload": "3.6.8",
     "strapi-plugin-users-permissions": "3.6.8",
     "strapi-utils": "3.6.8"
-  },
-  "author": {
-    "name": "fyodorio"
   },
   "strapi": {
     "uuid": "87e6d021-a61c-4a69-8f1c-09ba3ba59409"
